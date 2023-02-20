@@ -1,0 +1,4 @@
+\c postgres
+DROP DATABASE IF EXISTS shop WITH(FORCE);
+CREATE DATABASE shop;
+\c shop
